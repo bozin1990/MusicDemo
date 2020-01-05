@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		7037736F23BF9ADA0089FFC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7037736E23BF9ADA0089FFC7 /* AppDelegate.swift */; };
 		7037737123BF9ADA0089FFC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7037737023BF9ADA0089FFC7 /* SceneDelegate.swift */; };
-		7037737323BF9ADA0089FFC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7037737223BF9ADA0089FFC7 /* ViewController.swift */; };
 		7037737623BF9ADA0089FFC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7037737423BF9ADA0089FFC7 /* Main.storyboard */; };
 		7037737823BF9ADD0089FFC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7037737723BF9ADD0089FFC7 /* Assets.xcassets */; };
 		7037737B23BF9ADD0089FFC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7037737923BF9ADD0089FFC7 /* LaunchScreen.storyboard */; };
+		7037738323BF9DEC0089FFC7 /* 台北夜空下.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7037738223BF9DEB0089FFC7 /* 台北夜空下.mp4 */; };
+		7037738523BF9E170089FFC7 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7037738423BF9E170089FFC7 /* MusicViewController.swift */; };
+		707697FF23C089FC00906DAD /* 走到飛.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 707697FD23C089FB00906DAD /* 走到飛.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7037736B23BF9ADA0089FFC7 /* MusicDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7037736E23BF9ADA0089FFC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7037737023BF9ADA0089FFC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7037737223BF9ADA0089FFC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7037737523BF9ADA0089FFC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7037737723BF9ADD0089FFC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7037737A23BF9ADD0089FFC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7037737C23BF9ADE0089FFC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7037738223BF9DEB0089FFC7 /* 台北夜空下.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "台北夜空下.mp4"; sourceTree = "<group>"; };
+		7037738423BF9E170089FFC7 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		707697FD23C089FB00906DAD /* 走到飛.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "走到飛.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 		7037736D23BF9ADA0089FFC7 /* MusicDemo */ = {
 			isa = PBXGroup;
 			children = (
+				707697FD23C089FB00906DAD /* 走到飛.mp4 */,
+				7037738223BF9DEB0089FFC7 /* 台北夜空下.mp4 */,
 				7037736E23BF9ADA0089FFC7 /* AppDelegate.swift */,
 				7037737023BF9ADA0089FFC7 /* SceneDelegate.swift */,
-				7037737223BF9ADA0089FFC7 /* ViewController.swift */,
 				7037737423BF9ADA0089FFC7 /* Main.storyboard */,
+				7037738423BF9E170089FFC7 /* MusicViewController.swift */,
 				7037737723BF9ADD0089FFC7 /* Assets.xcassets */,
 				7037737923BF9ADD0089FFC7 /* LaunchScreen.storyboard */,
 				7037737C23BF9ADE0089FFC7 /* Info.plist */,
@@ -125,6 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7037738323BF9DEC0089FFC7 /* 台北夜空下.mp4 in Resources */,
+				707697FF23C089FC00906DAD /* 走到飛.mp4 in Resources */,
 				7037737B23BF9ADD0089FFC7 /* LaunchScreen.storyboard in Resources */,
 				7037737823BF9ADD0089FFC7 /* Assets.xcassets in Resources */,
 				7037737623BF9ADA0089FFC7 /* Main.storyboard in Resources */,
@@ -138,7 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7037737323BF9ADA0089FFC7 /* ViewController.swift in Sources */,
+				7037738523BF9E170089FFC7 /* MusicViewController.swift in Sources */,
 				7037736F23BF9ADA0089FFC7 /* AppDelegate.swift in Sources */,
 				7037737123BF9ADA0089FFC7 /* SceneDelegate.swift in Sources */,
 			);
